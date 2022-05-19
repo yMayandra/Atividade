@@ -40,7 +40,7 @@ namespace Atividade.ViewMay
             this.lblNumero = new System.Windows.Forms.Label();
             this.tbxNumero = new System.Windows.Forms.TextBox();
             this.btnEnviar = new System.Windows.Forms.Button();
-            this.btnValidar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -61,7 +61,7 @@ namespace Atividade.ViewMay
             this.lblNome.BackColor = System.Drawing.Color.Green;
             this.lblNome.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNome.ForeColor = System.Drawing.Color.White;
-            this.lblNome.Location = new System.Drawing.Point(12, 174);
+            this.lblNome.Location = new System.Drawing.Point(12, 152);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(38, 15);
             this.lblNome.TabIndex = 0;
@@ -71,7 +71,7 @@ namespace Atividade.ViewMay
             // 
             this.tbxNome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.tbxNome.ForeColor = System.Drawing.SystemColors.Window;
-            this.tbxNome.Location = new System.Drawing.Point(80, 171);
+            this.tbxNome.Location = new System.Drawing.Point(80, 149);
             this.tbxNome.Name = "tbxNome";
             this.tbxNome.Size = new System.Drawing.Size(190, 23);
             this.tbxNome.TabIndex = 1;
@@ -83,7 +83,7 @@ namespace Atividade.ViewMay
             this.lblCpf.BackColor = System.Drawing.Color.Green;
             this.lblCpf.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblCpf.ForeColor = System.Drawing.Color.White;
-            this.lblCpf.Location = new System.Drawing.Point(12, 216);
+            this.lblCpf.Location = new System.Drawing.Point(12, 194);
             this.lblCpf.Name = "lblCpf";
             this.lblCpf.Size = new System.Drawing.Size(26, 15);
             this.lblCpf.TabIndex = 0;
@@ -93,7 +93,7 @@ namespace Atividade.ViewMay
             // 
             this.tbxCpf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.tbxCpf.ForeColor = System.Drawing.SystemColors.Window;
-            this.tbxCpf.Location = new System.Drawing.Point(80, 208);
+            this.tbxCpf.Location = new System.Drawing.Point(80, 186);
             this.tbxCpf.Name = "tbxCpf";
             this.tbxCpf.Size = new System.Drawing.Size(190, 23);
             this.tbxCpf.TabIndex = 1;
@@ -104,7 +104,7 @@ namespace Atividade.ViewMay
             this.lblEmail.BackColor = System.Drawing.Color.Green;
             this.lblEmail.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblEmail.ForeColor = System.Drawing.Color.White;
-            this.lblEmail.Location = new System.Drawing.Point(12, 260);
+            this.lblEmail.Location = new System.Drawing.Point(12, 238);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(39, 15);
             this.lblEmail.TabIndex = 0;
@@ -114,7 +114,7 @@ namespace Atividade.ViewMay
             // 
             this.tbxEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.tbxEmail.ForeColor = System.Drawing.SystemColors.Window;
-            this.tbxEmail.Location = new System.Drawing.Point(80, 252);
+            this.tbxEmail.Location = new System.Drawing.Point(80, 230);
             this.tbxEmail.Name = "tbxEmail";
             this.tbxEmail.Size = new System.Drawing.Size(190, 23);
             this.tbxEmail.TabIndex = 1;
@@ -125,7 +125,7 @@ namespace Atividade.ViewMay
             this.lblNumero.BackColor = System.Drawing.Color.Green;
             this.lblNumero.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNumero.ForeColor = System.Drawing.Color.White;
-            this.lblNumero.Location = new System.Drawing.Point(12, 305);
+            this.lblNumero.Location = new System.Drawing.Point(12, 283);
             this.lblNumero.Name = "lblNumero";
             this.lblNumero.Size = new System.Drawing.Size(49, 15);
             this.lblNumero.TabIndex = 0;
@@ -135,7 +135,7 @@ namespace Atividade.ViewMay
             // 
             this.tbxNumero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.tbxNumero.ForeColor = System.Drawing.SystemColors.Window;
-            this.tbxNumero.Location = new System.Drawing.Point(80, 302);
+            this.tbxNumero.Location = new System.Drawing.Point(80, 280);
             this.tbxNumero.Name = "tbxNumero";
             this.tbxNumero.Size = new System.Drawing.Size(190, 23);
             this.tbxNumero.TabIndex = 1;
@@ -145,7 +145,7 @@ namespace Atividade.ViewMay
             this.btnEnviar.BackColor = System.Drawing.Color.Green;
             this.btnEnviar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnEnviar.ForeColor = System.Drawing.Color.White;
-            this.btnEnviar.Location = new System.Drawing.Point(197, 331);
+            this.btnEnviar.Location = new System.Drawing.Point(195, 313);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(75, 28);
             this.btnEnviar.TabIndex = 2;
@@ -153,18 +153,14 @@ namespace Atividade.ViewMay
             this.btnEnviar.UseVisualStyleBackColor = false;
             this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
-            // btnValidar
+            // label1
             // 
-            this.btnValidar.BackColor = System.Drawing.Color.Green;
-            this.btnValidar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnValidar.ForeColor = System.Drawing.Color.White;
-            this.btnValidar.Location = new System.Drawing.Point(276, 203);
-            this.btnValidar.Name = "btnValidar";
-            this.btnValidar.Size = new System.Drawing.Size(75, 28);
-            this.btnValidar.TabIndex = 2;
-            this.btnValidar.Text = "Validar";
-            this.btnValidar.UseVisualStyleBackColor = false;
-            this.btnValidar.Click += new System.EventHandler(this.btnEnviar_Click);
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(12, 354);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(190, 75);
+            this.label1.TabIndex = 3;
             // 
             // tela2Mayandra
             // 
@@ -172,7 +168,7 @@ namespace Atividade.ViewMay
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnValidar);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.tbxNumero);
             this.Controls.Add(this.lblNumero);
@@ -203,6 +199,6 @@ namespace Atividade.ViewMay
         private System.Windows.Forms.Label lblNumero;
         private System.Windows.Forms.TextBox tbxNumero;
         private System.Windows.Forms.Button btnEnviar;
-        private System.Windows.Forms.Button btnValidar;
+        private System.Windows.Forms.Label label1;
     }
 }

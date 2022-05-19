@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace Atividade.ViewMay
 {
-    public partial class tela3Mayandra : Form
+    public partial class tela4Mayandra : Form
     {
-        public tela3Mayandra()
+        public tela4Mayandra()
         {
             InitializeComponent();
         }
 
-        private void lblResultado_Click(object sender, EventArgs e)
+        private void tela4Mayandra_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void cbxPlaca_SelectedIndexChanged(object sender, EventArgs e)
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
